@@ -619,3 +619,4 @@ function draw_tree(error, treeData) {
     update(root);
     centerNode(root);
     tree_root = root;
+}

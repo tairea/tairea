@@ -72,9 +72,10 @@
 }
 
 .search {
-  float: left;
   font: 10px sans-serif;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 ul.select2-results {
@@ -94,5 +95,7 @@ ul.select2-results {
 }
 
 #block_container {
-  display: inline;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
