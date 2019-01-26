@@ -1,0 +1,830 @@
+{
+    "name": "Mana Ariki",
+    "gender": "m",
+    "spouse": "Ake Tongareau",
+    "_children": [
+        {
+            "name": "Marukoi",
+            "gender": "",
+            "spouse": "",
+            "order": 1,
+            "_children": [
+                {
+                    "name": "Tapai",
+                    "_children": [
+                        {
+                            "name": "Teveta",
+                            "spouse": "",
+                            "gender": "m",
+                            "order": 1,
+                            "_children": [
+                                {
+                                    "name": "Uriatua",
+                                    "gender": "f",
+                                    "order": 1,
+                                    "_children": [
+                                        {
+                                            "name": "Putu"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Mareva (Ariki)",
+                                    "gender": "m",
+                                    "order": 2,
+                                    "_children": [
+                                        {
+                                            "name": "Pirire",
+                                            "gender": "f",
+                                            "order": 1
+                                        },
+                                        {
+                                            "name": "Samuela",
+                                            "gender": "m",
+                                            "order": 2,
+                                            "_children": [
+                                                {
+                                                    "name": "Mikera",
+                                                    "gender": "m",
+                                                    "_children": [
+                                                        {
+                                                            "name": "Auani",
+                                                            "gender": "m"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Opua",
+                            "gender": "m",
+                            "order": 2,
+                            "spouse": "Aketukuariki",
+                            "_children": [
+                                {
+                                    "name": "Vouvou Kana",
+                                    "gender": "m",
+                                    "order": 1
+                                },
+                                {
+                                    "name": "Tairea (Vou)",
+                                    "gender": "m",
+                                    "order": 2
+                                },
+                                {
+                                    "name": "Tamaea",
+                                    "gender": "m",
+                                    "order": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ngaropi",
+                            "gender": "f",
+                            "order": 3,
+                            "_children": [
+                                {
+                                    "name": "Tura (Kopumaki)",
+                                    "gender": "m",
+                                    "_children": [
+                                        {
+                                            "name": "Papatai (with Ngu)",
+                                            "gender": "m"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tarangariki",
+            "order": 2,
+            "_children": [
+                {
+                    "name": "Mataiapo",
+                    "spouse": "Tera-E-Nuku Ariki",
+                    "_children": [
+                        {
+                            "name": "Vaipunu (Peura)",
+                            "gender": "m",
+                            "spouse": "Aketoa",
+                            "order": 1,
+                            "_children": [
+                                {
+                                    "name": "Tairea (Vou) [Adopted]",
+                                    "spouse": "Teurarii",
+                                    "_children": [
+                                        {
+                                            "name": "Tara",
+                                            "gender": "m",
+                                            "order": 1
+                                        },
+                                        {
+                                            "name": "Auru",
+                                            "gender": "m",
+                                            "order": 2,
+                                            "_children": [
+                                                {
+                                                    "name": "Tairea (Padre)",
+                                                    "gender": "m",
+                                                    "order": 1,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Schofield (Will)",
+                                                            "gender": "m",
+                                                            "order": 1,
+                                                            "_children": [
+                                                                {
+                                                                    "name": "William",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "James",
+                                                            "gender": "m",
+                                                            "order": 2
+                                                        },
+                                                        {
+                                                            "name": "Lenior",
+                                                            "gender": "m",
+                                                            "order": 3
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Makatea",
+                                                    "gender": "m",
+                                                    "order": 2,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Makatea [Adopted]",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Rosa",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "Rutha",
+                                                            "gender": "f"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Tinokura",
+                                                    "gender": "m",
+                                                    "order": 3,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Rickki",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "Wynetta",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "Corey",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Aketairi",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Tarangaariki (Sheldon)",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Bella",
+                                                                    "gender": "f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Koera",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Akaina",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Teowai",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Tairi",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Manaariki",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Taratoa",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "John",
+                                                    "gender": "m",
+                                                    "order": 5,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Tariu",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Teura [Adopted]",
+                                                            "gender": "f"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Keu (Vouvou)",
+                                                    "gender": "f",
+                                                    "order": 5,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Puna",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Peter",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Ariana",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Tungane",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "Auru",
+                                                            "gender": "m",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Dominic",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Cassandra",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Marama (Marcus)",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Paige",
+                                                                    "gender": "f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Rima",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Dojah",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Lamont",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Bob",
+                                                            "gender": "m",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Ake",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Tarangariki",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Maara",
+                                                    "gender": "m",
+                                                    "order": 6,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Yantame",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "Maea",
+                                                            "gender": "f"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Tangatakerekere (Blackie)",
+                                                    "gender": "m",
+                                                    "order": 7
+                                                },
+                                                {
+                                                    "name": "Metuavaine (Tua)",
+                                                    "gender": "m",
+                                                    "order": 8,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Arama",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Terina",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "Robert",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Ryan",
+                                                            "gender": "m"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Vaipunu",
+                                                    "gender": "m",
+                                                    "order": 9,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Waipuna (Ian)",
+                                                            "gender": "m",
+                                                            "order": 1
+                                                        },
+                                                        {
+                                                            "name": "Ben",
+                                                            "gender": "m",
+                                                            "order": 2,
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Emiliana (Hope)",
+                                                                    "gender": "f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Sara",
+                                                            "gender": "f",
+                                                            "order": 3,
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Noah",
+                                                                    "gender": "m",
+                                                                    "order": 1
+                                                                },
+                                                                {
+                                                                    "name": "Hosea",
+                                                                    "gender": "m",
+                                                                    "order": 2
+                                                                },
+                                                                {
+                                                                    "name": "Psalms",
+                                                                    "gender": "f",
+                                                                    "order": 3
+                                                                },
+                                                                {
+                                                                    "name": "Enoch",
+                                                                    "gender": "m",
+                                                                    "order": 4
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Samuel",
+                                                            "gender": "m",
+                                                            "order": 4
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Ngatungane",
+                                                    "gender": "f",
+                                                    "order": 10,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Melissa",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Jessiah",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Tilisa",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Seneah (Nelly)",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Padreus (Noue)",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Metuangaro (Javaniah)",
+                                                                    "gender": "f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Teura",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Makea",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Davida",
+                                                                    "gender": "m"
+                                                                },
+                                                                {
+                                                                    "name": "Kapu",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Popongi",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Melissa",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Kura",
+                                                            "gender": "f",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Simon",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Tupuna",
+                                                            "gender": "m",
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Tiare",
+                                                                    "gender": "f"
+                                                                },
+                                                                {
+                                                                    "name": "Hezekiah",
+                                                                    "gender": "m"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Ngatokoa (Tokoa)",
+                                                    "gender": "m",
+                                                    "order": 11,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Opua",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Era",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Bam",
+                                                            "gender": "m"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Teura (Ben)",
+                                                    "gender": "m",
+                                                    "order": 12,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Amy",
+                                                            "gender": "f"
+                                                        },
+                                                        {
+                                                            "name": "DJ",
+                                                            "gender": "m"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Ngatuaine [Adopted]",
+                                                    "gender": "f",
+                                                    "order": 13,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Teokoitu (Itu)",
+                                                            "gender": "m"
+                                                        },
+                                                        {
+                                                            "name": "Avaiki (Leonard)",
+                                                            "gender": "m"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Taunga",
+                                            "gender": "f",
+                                            "order": 3,
+                                            "_children": [
+                                                {
+                                                    "name": "Vaine",
+                                                    "gender": "m",
+                                                    "spouse": "Maria Maoate",
+                                                    "order": 1,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Ida",
+                                                            "gender": "f",
+                                                            "order": 1
+                                                        },
+                                                        {
+                                                            "name": "Mana",
+                                                            "gender": "m",
+                                                            "order": 2
+                                                        },
+                                                        {
+                                                            "name": "Andrew",
+                                                            "gender": "m",
+                                                            "order": 3
+                                                        },
+                                                        {
+                                                            "name": "Tara",
+                                                            "gender": "m",
+                                                            "order": 4
+                                                        },
+                                                        {
+                                                            "name": "Maria",
+                                                            "gender": "f",
+                                                            "order": 5
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Ngametua",
+                                                    "gender": "f",
+                                                    "order": 2,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Peter",
+                                                            "gender": "m",
+                                                            "order": 1
+                                                        },
+                                                        {
+                                                            "name": "Mana (Brian)",
+                                                            "gender": "m",
+                                                            "order": 2
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Piriori",
+                                            "gender": "m",
+                                            "spouse": "Nga",
+                                            "order": 4,
+                                            "_children": [
+                                                {
+                                                    "name": "Taunga",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Mii",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Apii",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Aketoa",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Tata",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Tanga",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Rourukeu",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Ngatoko",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Teremoanoa",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Patu",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Tai",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Turike",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Uru",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Tungane",
+                                                    "gender": "f"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Pipirangi",
+                                            "gender": "f",
+                                            "order": 5
+                                        },
+                                        {
+                                            "name": "Tuaauri",
+                                            "gender": "f",
+                                            "order": 6
+                                        },
+                                        {
+                                            "name": "Ta",
+                                            "gender": "m",
+                                            "order": 7
+                                        },
+                                        {
+                                            "name": "Tangatakere",
+                                            "gender": "m",
+                                            "order": 8,
+                                            "_children": [
+                                                {
+                                                    "name": "Terepai",
+                                                    "gender": "m"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Manaariki",
+                                            "gender": "m",
+                                            "order": 9,
+                                            "_children": [
+                                                {
+                                                    "name": "Tuakana",
+                                                    "gender": "m"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Tariu",
+                                            "gender": "m",
+                                            "order": 10,
+                                            "_children": [
+                                                {
+                                                    "name": "Lydia [Brought up]",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "John [Brought up]",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Peter [Adopted]",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Peter [Adopted]",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Christine [Adopted]",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Teura",
+                                                    "gender": "f"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Vai",
+                                            "gender": "m",
+                                            "spouse": "Tere",
+                                            "order": 11,
+                                            "_children": [
+                                                {
+                                                    "name": "Aukino",
+                                                    "gender": "m",
+                                                    "_children": [
+                                                        {
+                                                            "name": "Tiare",
+                                                            "gender": "m"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Noo",
+                                                    "gender": "f",
+                                                    "_children": [
+                                                        {
+                                                            "name": "Elaine",
+                                                            "gender": "f"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Apii",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Peter",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Mangere",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Ritia",
+                                                    "gender": "f"
+                                                },
+                                                {
+                                                    "name": "Ati",
+                                                    "gender": "m"
+                                                },
+                                                {
+                                                    "name": "Tuaine",
+                                                    "gender": "f"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Ina",
+                                            "gender": "m",
+                                            "order": 12
+                                        },
+                                        {
+                                            "name": "Rouruina",
+                                            "gender": "m",
+                                            "order": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pipirangi",
+                            "gender": "f",
+                            "order": 2,
+                            "spouse": "Kuraau"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
