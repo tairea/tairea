@@ -207,10 +207,8 @@ function draw_tree(error, treeData) {
         svgGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
     }
 
-    // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
-    var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
-
     // define the baseSvg, attaching a class for styling and the zoomListener
+
     var baseSvg = d3.select("#tree-container").append("svg")
         .attr("width", viewerWidth)
         .attr("height", viewerHeight);
@@ -608,7 +606,8 @@ function draw_tree(error, treeData) {
     outer_update = update;
 
     // Append a group which holds all nodes and which the zoom Listener can act upon.
-    var svgGroup = baseSvg.append("g");
+    var svgGroup = baseSvg.append("g")
+    // .attr("transform", "translate(100,30)scale(1.6,1.6)");
 
     // Define the root
     root = treeData;
@@ -619,4 +618,6 @@ function draw_tree(error, treeData) {
     update(root);
     centerNode(root);
     tree_root = root;
+
+
 }

@@ -74,6 +74,7 @@
 .search {
   font: 10px sans-serif;
   width: 100%;
+  height: 100%;
   position: fixed;
   bottom: 0;
 }
@@ -89,6 +90,10 @@ ul.select2-results {
   height: 100%;
 }
 
+.select2-choice {
+  height: 100% !important;
+}
+
 .select2-container, .select2-drop, .select2-search, .select2-chosen, .select2-search input {
   font: 1em sans-serif;
   text-align: center;
@@ -98,4 +103,5 @@ ul.select2-results {
   width: 100%;
   position: fixed;
   bottom: 0;
+  height: 3.12rem;
 }
