@@ -45,3 +45,54 @@
   border: 1px solid black;
   margin-bottom: 1px;
 }
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.found {
+  fill: #ff4136;
+  stroke: #ff4136;
+}
+
+.search {
+  float: left;
+  font: 10px sans-serif;
+  width: 30%;
+}
+
+ul.select2-results {
+  max-height: 400px;
+}
+
+.select2-chosen {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.select2-container, .select2-drop, .select2-search, .select2-chosen, .select2-search input {
+  font: 1em sans-serif;
+  text-align: center;
+}
+
+#block_container {
+  display: inline;
+}

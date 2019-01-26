@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="foundation.css" />
   <link rel="stylesheet" href="app.css" />
   <link rel="stylesheet" href="d3-context-menu.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css">
+  </link>
 </head>
 
 <body>
@@ -54,6 +56,11 @@
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
   </div>
 
+
+  <div id="block_container">
+    <div id="searchName"></div>
+  </div>
+
   <div id="tree-container"></div>
   <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
   <script>
@@ -69,21 +76,16 @@
     firebase.initializeApp(config);
     // Get a reference to the database service
     var database = firebase.database();
-    var ref = database.ref();
+    // var ref = database.ref();
 
-    ref.on('value', function (snapshot) {
 
-      var data = snapshot.val();
-      console.log(data)
-      // draw your d3 vis here using the data
-
-    });
   </script>
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js"></script>
   <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="dndTree.js"></script>
   <script src="d3-context-menu.js"></script>
   <script src="underscore-min.js"></script>
-  <script src="jquery.js"></script>
   <script src="fastclick.js"></script>
   <script src="foundation.min.js"></script>
 
@@ -108,19 +110,18 @@
         return false;
       });
 
-
       // get data from tree.json
       var treeJSON = d3.json("tree.json", draw_tree);
 
-      // TODO: get data from Firebase
-      ref.on('value', function (snapshot) {
+      // get data from firebase
+      // database.ref().on('value', function (snapshot) {
 
-        var data = snapshot.val();
-        console.log(data)
-        // draw your d3 vis here using the data
+      //   var data = snapshot.val();
+      //   console.log(data)
+      //   // draw your d3 vis here using the data
+      //   draw_tree(undefined, data)
 
-      });
-
+      // });
 
     });
   </script>
