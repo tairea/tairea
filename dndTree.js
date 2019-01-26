@@ -326,7 +326,8 @@ function draw_tree(error, treeData) {
         clearAll(root);
         expandAll(root);
         update(root);
-
+        // console.log('e.object.text')
+        // console.log(e.object.text)
         searchField = "d.name";
         searchText = e.object.text;
         searchTree(root);
@@ -346,12 +347,16 @@ function draw_tree(error, treeData) {
 
     //===============================================
     function searchTree(d) {
+
+
         if (d.children)
             d.children.forEach(searchTree);
         else if (d._children)
             d._children.forEach(searchTree);
         var searchFieldValue = eval(searchField);
-        if (searchFieldValue && searchFieldValue.match(searchText)) {
+        // if (searchFieldValue && searchFieldValue.match(searchText)) {
+        if (searchFieldValue && searchFieldValue === searchText) {
+
             // Walk parent chain
             var ancestors = [];
             var parent = d;
@@ -365,33 +370,16 @@ function draw_tree(error, treeData) {
         }
     }
 
-    var overCircle = function (d) {
-        selectedNode = d;
-        updateTempConnector();
-    };
-    var outCircle = function (d) {
-        selectedNode = null;
-        updateTempConnector();
-    };
-
     // color a node properly
     function colorNode(d) {
         result = "#fff";
-        if (d.synthetic == true) {
-            result = (d._children || d.children) ? "darkgray" : "lightgray";
-        }
-        else {
-            if (d.type == "USDA") {
-                result = (d._children || d.children) ? "orangered" : "orange";
-            } else if (d.type == "Produce") {
-                result = (d._children || d.children) ? "yellowgreen" : "yellow";
-            } else if (d.type == "RecipeIngredient") {
-                result = (d._children || d.children) ? "skyblue" : "royalblue";
-            } else {
-                result = "lightsteelblue"
-            }
-        }
-        return result;
+        // if (d.gender == 'm') {
+        //     result = (d._children || d.children) ? "blue" : "#fff";
+        // }
+        // else if (d.gender == "f") {
+        //     result = (d._children || d.children) ? "green" : "#fff";
+        // }
+        // return result;
     }
 
     function centerNode(source) {
@@ -524,7 +512,14 @@ function draw_tree(error, treeData) {
 
         // Fade the text in
         nodeUpdate.select("text")
-            .style("fill-opacity", 1);
+            .style("fill-opacity", 1)
+            .style("fill", function (d) {
+                if (d.gender === "m") {
+                    return "#005792"; //male
+                } else if (d.gender === 'f') {
+                    return "#ea168e"; //female
+                }
+            })
 
         nodeUpdate.select("circle")
             .attr("r", 4.5)
