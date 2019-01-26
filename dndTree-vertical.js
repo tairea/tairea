@@ -384,8 +384,8 @@ function draw_tree(error, treeData) {
 
     function centerNode(source) {
         scale = zoomListener.scale();
-        x = -source.y0;
-        y = -source.x0;
+        x = -source.x0;
+        y = -source.y0;
         x = x * scale + viewerWidth / 2;
         y = y * scale + viewerHeight / 2;
         d3.select('g').transition()
@@ -527,7 +527,7 @@ function draw_tree(error, treeData) {
             })
 
         nodeUpdate.select("circle")
-            .attr("r", 4.5)
+            .attr("r", 6.5)
             .style("fill", function (d) {
                 if (d.class === "found") {
                     return "#ff4136"; //red
