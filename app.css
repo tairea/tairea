@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .node {
   cursor: pointer;
 }
@@ -102,6 +107,7 @@ ul.select2-results {
 #block_container {
   width: 100%;
   position: fixed;
+  left: 0;
   bottom: 0;
-  height: 3.12rem;
+  height: 3.125rem;
 }
