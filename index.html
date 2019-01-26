@@ -107,7 +107,21 @@
         create_node();
         return false;
       });
+
+
+      // get data from tree.json
       var treeJSON = d3.json("tree.json", draw_tree);
+
+      // TODO: get data from Firebase
+      ref.on('value', function (snapshot) {
+
+        var data = snapshot.val();
+        console.log(data)
+        // draw your d3 vis here using the data
+
+      });
+
+
     });
   </script>
 </body>
