@@ -86,7 +86,7 @@ function draw_tree(error, treeData) {
     // define a d3 diagonal projection for use by the node paths later on.
     var diagonal = d3.svg.diagonal()
         .projection(function (d) {
-            return [d.y, d.x];
+            return [d.x, d.y];
         });
 
     var menu = [
@@ -434,7 +434,7 @@ function draw_tree(error, treeData) {
             }
         };
         childCount(0, root);
-        var newHeight = d3.max(levelWidth) * 25; // 25 pixels per line  
+        var newHeight = d3.max(levelWidth) * 35; // 25 pixels per line  
         tree = tree.size([newHeight, viewerWidth]);
 
         // Compute the new tree layout.
@@ -446,7 +446,7 @@ function draw_tree(error, treeData) {
             //d.y = (d.depth * (maxLabelLength * 10)); //maxLabelLength * 10px
             // alternatively to keep a fixed scale one can set a fixed depth per level
             // Normalize for fixed-depth by commenting out below line
-            d.y = (d.depth * 200); //500px per level.
+            d.y = (d.depth * 100); //500px per level.
         });
 
         // Update the nodes…
@@ -469,14 +469,18 @@ function draw_tree(error, treeData) {
             .style("fill", colorNode);
 
         nodeEnter.append("text")
-            .attr("x", function (d) {
-                return d.children || d._children ? -10 : 10;
-            })
-            .attr("dy", ".35em")
+            // .attr("x", 10)
+            // .attr("y", function (d) {
+            //     return d.children || d._children ? -10 : 10;
+            // })
+            // .attr("y", -10)
+            .attr("dy", "0.35em")
             .attr('class', 'nodeText')
-            .attr("text-anchor", function (d) {
-                return d.children || d._children ? "end" : "start";
-            })
+            .attr("transform", "rotate(45)")
+            // .attr("text-anchor", function (d) {
+            //     return d.children || d._children ? "end" : "start";
+            // })
+            .attr("text-anchor", "middle")
             .text(function (d) {
                 return d.name;
             })
@@ -485,11 +489,12 @@ function draw_tree(error, treeData) {
         // Update the text to reflect whether node has children or not.
         node.select('text')
             .attr("x", function (d) {
-                return d.children || d._children ? -10 : 10;
+                return d.children || d._children ? -10 : -10;
             })
-            .attr("text-anchor", function (d) {
-                return d.children || d._children ? "end" : "start";
-            })
+            // .attr("text-anchor", function (d) {
+            //     return d.children || d._children ? "end" : "start";
+            // })
+            .attr("text-anchor", "end")
             .text(function (d) {
                 return d.name;
             });
@@ -507,7 +512,7 @@ function draw_tree(error, treeData) {
         var nodeUpdate = node.transition()
             .duration(duration)
             .attr("transform", function (d) {
-                return "translate(" + d.y + "," + d.x + ")";
+                return "translate(" + d.x + "," + d.y + ")";
             });
 
         // Fade the text in
