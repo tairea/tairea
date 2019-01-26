@@ -166,15 +166,18 @@
                                                     "_children": [
                                                         {
                                                             "name": "Makatea [Adopted]",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "Rosa",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 2
                                                         },
                                                         {
                                                             "name": "Rutha",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 3
                                                         }
                                                     ]
                                                 },
@@ -185,19 +188,23 @@
                                                     "_children": [
                                                         {
                                                             "name": "Rickki",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "Wynetta",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 2
                                                         },
                                                         {
                                                             "name": "Corey",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 3
                                                         },
                                                         {
                                                             "name": "Aketairi",
                                                             "gender": "f",
+                                                            "order": 4,
                                                             "_children": [
                                                                 {
                                                                     "name": "Tarangaariki (Sheldon)",
@@ -212,6 +219,7 @@
                                                         {
                                                             "name": "Koera",
                                                             "gender": "f",
+                                                            "order": 5,
                                                             "_children": [
                                                                 {
                                                                     "name": "Akaina",
@@ -244,11 +252,8 @@
                                                     "_children": [
                                                         {
                                                             "name": "Tariu",
-                                                            "gender": "m"
-                                                        },
-                                                        {
-                                                            "name": "Teura [Adopted]",
-                                                            "gender": "f"
+                                                            "gender": "m",
+                                                            "order": 1
                                                         }
                                                     ]
                                                 },
@@ -260,6 +265,7 @@
                                                         {
                                                             "name": "Puna",
                                                             "gender": "f",
+                                                            "order": 1,
                                                             "_children": [
                                                                 {
                                                                     "name": "Peter",
@@ -269,15 +275,18 @@
                                                         },
                                                         {
                                                             "name": "Ariana",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 2
                                                         },
                                                         {
                                                             "name": "Tungane",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 3
                                                         },
                                                         {
                                                             "name": "Auru",
                                                             "gender": "m",
+                                                            "order": 4,
                                                             "_children": [
                                                                 {
                                                                     "name": "Dominic",
@@ -300,6 +309,7 @@
                                                         {
                                                             "name": "Rima",
                                                             "gender": "f",
+                                                            "order": 5,
                                                             "_children": [
                                                                 {
                                                                     "name": "Dojah",
@@ -314,6 +324,7 @@
                                                         {
                                                             "name": "Bob",
                                                             "gender": "m",
+                                                            "order": 6,
                                                             "_children": [
                                                                 {
                                                                     "name": "Ake",
@@ -334,11 +345,13 @@
                                                     "_children": [
                                                         {
                                                             "name": "Yantame",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "Maea",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 2
                                                         }
                                                     ]
                                                 },
@@ -354,19 +367,23 @@
                                                     "_children": [
                                                         {
                                                             "name": "Arama",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "Terina",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 2
                                                         },
                                                         {
                                                             "name": "Robert",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 3
                                                         },
                                                         {
                                                             "name": "Ryan",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 4
                                                         }
                                                     ]
                                                 },
@@ -433,50 +450,61 @@
                                                         {
                                                             "name": "Melissa",
                                                             "gender": "f",
+                                                            "order": 1,
                                                             "_children": [
                                                                 {
                                                                     "name": "Jessiah",
-                                                                    "gender": "m"
+                                                                    "gender": "m",
+                                                                    "order": 1
                                                                 },
                                                                 {
                                                                     "name": "Tilisa",
-                                                                    "gender": "f"
+                                                                    "gender": "f",
+                                                                    "order": 2
                                                                 },
                                                                 {
                                                                     "name": "Seneah (Nelly)",
-                                                                    "gender": "f"
+                                                                    "gender": "f",
+                                                                    "order": 3
                                                                 },
                                                                 {
                                                                     "name": "Padreus (Noue)",
-                                                                    "gender": "f"
+                                                                    "gender": "f",
+                                                                    "order": 4
                                                                 },
                                                                 {
                                                                     "name": "Metuangaro (Javaniah)",
-                                                                    "gender": "f"
+                                                                    "gender": "f",
+                                                                    "order": 5
                                                                 }
                                                             ]
                                                         },
                                                         {
                                                             "name": "Teura",
                                                             "gender": "f",
+                                                            "order": 2,
                                                             "_children": [
                                                                 {
                                                                     "name": "Makea",
-                                                                    "gender": "f"
+                                                                    "gender": "f",
+                                                                    "order": 1
                                                                 },
                                                                 {
                                                                     "name": "Davida",
-                                                                    "gender": "m"
+                                                                    "gender": "m",
+                                                                    "order": 2
                                                                 },
                                                                 {
                                                                     "name": "Kapu",
-                                                                    "gender": "m"
+                                                                    "gender": "m",
+                                                                    "order": 3
                                                                 }
                                                             ]
                                                         },
                                                         {
                                                             "name": "Popongi",
                                                             "gender": "f",
+                                                            "order": 3,
                                                             "_children": [
                                                                 {
                                                                     "name": "Melissa",
@@ -487,6 +515,7 @@
                                                         {
                                                             "name": "Kura",
                                                             "gender": "f",
+                                                            "order": 4,
                                                             "_children": [
                                                                 {
                                                                     "name": "Simon",
@@ -497,14 +526,17 @@
                                                         {
                                                             "name": "Tupuna",
                                                             "gender": "m",
+                                                            "order": 5,
                                                             "_children": [
                                                                 {
                                                                     "name": "Tiare",
-                                                                    "gender": "f"
+                                                                    "gender": "f",
+                                                                    "order": 1
                                                                 },
                                                                 {
                                                                     "name": "Hezekiah",
-                                                                    "gender": "m"
+                                                                    "gender": "m",
+                                                                    "order": 2
                                                                 }
                                                             ]
                                                         }
@@ -517,15 +549,18 @@
                                                     "_children": [
                                                         {
                                                             "name": "Opua",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "Era",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 2
                                                         },
                                                         {
                                                             "name": "Bam",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 3
                                                         }
                                                     ]
                                                 },
@@ -536,11 +571,13 @@
                                                     "_children": [
                                                         {
                                                             "name": "Amy",
-                                                            "gender": "f"
+                                                            "gender": "f",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "DJ",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 2
                                                         }
                                                     ]
                                                 },
@@ -551,11 +588,13 @@
                                                     "_children": [
                                                         {
                                                             "name": "Teokoitu (Itu)",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 1
                                                         },
                                                         {
                                                             "name": "Avaiki (Leonard)",
-                                                            "gender": "m"
+                                                            "gender": "m",
+                                                            "order": 2
                                                         }
                                                     ]
                                                 }
@@ -626,59 +665,73 @@
                                             "_children": [
                                                 {
                                                     "name": "Taunga",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 1
                                                 },
                                                 {
                                                     "name": "Mii",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 2
                                                 },
                                                 {
                                                     "name": "Apii",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 3
                                                 },
                                                 {
                                                     "name": "Aketoa",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 4
                                                 },
                                                 {
                                                     "name": "Tata",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 5
                                                 },
                                                 {
                                                     "name": "Tanga",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 6
                                                 },
                                                 {
                                                     "name": "Rourukeu",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 7
                                                 },
                                                 {
                                                     "name": "Ngatoko",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 8
                                                 },
                                                 {
                                                     "name": "Teremoanoa",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 9
                                                 },
                                                 {
                                                     "name": "Patu",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 10
                                                 },
                                                 {
                                                     "name": "Tai",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 11
                                                 },
                                                 {
                                                     "name": "Turike",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 12
                                                 },
                                                 {
                                                     "name": "Uru",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 13
                                                 },
                                                 {
                                                     "name": "Tungane",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 14
                                                 }
                                             ]
                                         },
@@ -726,27 +779,33 @@
                                             "_children": [
                                                 {
                                                     "name": "Lydia [Brought up]",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 1
                                                 },
                                                 {
                                                     "name": "John [Brought up]",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 2
                                                 },
                                                 {
                                                     "name": "Peter [Adopted]",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 3
                                                 },
                                                 {
                                                     "name": "Peter [Adopted]",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 4
                                                 },
                                                 {
                                                     "name": "Christine [Adopted]",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 5
                                                 },
                                                 {
                                                     "name": "Teura",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 6
                                                 }
                                             ]
                                         },
@@ -759,6 +818,7 @@
                                                 {
                                                     "name": "Aukino",
                                                     "gender": "m",
+                                                    "order": 1,
                                                     "_children": [
                                                         {
                                                             "name": "Tiare",
@@ -769,6 +829,7 @@
                                                 {
                                                     "name": "Noo",
                                                     "gender": "f",
+                                                    "order": 2,
                                                     "_children": [
                                                         {
                                                             "name": "Elaine",
@@ -778,27 +839,33 @@
                                                 },
                                                 {
                                                     "name": "Apii",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 3
                                                 },
                                                 {
                                                     "name": "Peter",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 4
                                                 },
                                                 {
                                                     "name": "Mangere",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 5
                                                 },
                                                 {
                                                     "name": "Ritia",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 6
                                                 },
                                                 {
                                                     "name": "Ati",
-                                                    "gender": "m"
+                                                    "gender": "m",
+                                                    "order": 7
                                                 },
                                                 {
                                                     "name": "Tuaine",
-                                                    "gender": "f"
+                                                    "gender": "f",
+                                                    "order": 8
                                                 }
                                             ]
                                         },
