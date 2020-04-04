@@ -1,6 +1,6 @@
-Tairea Family Tree: 
+**Tairea Family Tree:**
 
-View live: https://ian-vai.github.io/tairea/index.html
+View live: https://tairea.github.io/tairea/index.html
 
 Based on: Adam Feuer’s code<br/>
 https://bl.ocks.org/adamfeuer/042bfa0dde0059e2b288
