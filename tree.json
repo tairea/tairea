@@ -124,64 +124,7 @@
                                         {
                                             "name": "Tara",
                                             "gender": "m",
-                                            "order": 1,
-                                            "_children": [
-                                                {
-                                                    "name": "Vaipunu [Adopted]",
-                                                    "gender": "m",
-                                                    "order": 9,
-                                                    "_children": [
-                                                        {
-                                                            "name": "Vaipunu (Ian)",
-                                                            "gender": "m",
-                                                            "order": 1
-                                                        },
-                                                        {
-                                                            "name": "Ben",
-                                                            "gender": "m",
-                                                            "order": 2,
-                                                            "_children": [
-                                                                {
-                                                                    "name": "Emiliana (Hope)",
-                                                                    "gender": "f"
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "name": "Sara",
-                                                            "gender": "f",
-                                                            "order": 3,
-                                                            "_children": [
-                                                                {
-                                                                    "name": "Noah",
-                                                                    "gender": "m",
-                                                                    "order": 1
-                                                                },
-                                                                {
-                                                                    "name": "Hosea",
-                                                                    "gender": "m",
-                                                                    "order": 2
-                                                                },
-                                                                {
-                                                                    "name": "Psalms",
-                                                                    "gender": "f",
-                                                                    "order": 3
-                                                                },
-                                                                {
-                                                                    "name": "Enoch",
-                                                                    "gender": "m",
-                                                                    "order": 4
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "name": "Samuel",
-                                                            "gender": "m",
-                                                            "order": 4
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            "order": 1
                                         },
                                         {
                                             "name": "Auru",
@@ -445,6 +388,61 @@
                                                     ]
                                                 },
                                                 {
+                                                    "name": "Vaipunu",
+                                                    "gender": "m",
+                                                    "order": 9,
+                                                    "_children": [
+                                                        {
+                                                            "name": "Vaipunu (Ian)",
+                                                            "gender": "m",
+                                                            "order": 1
+                                                        },
+                                                        {
+                                                            "name": "Ben",
+                                                            "gender": "m",
+                                                            "order": 2,
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Emiliana (Hope)",
+                                                                    "gender": "f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Sara",
+                                                            "gender": "f",
+                                                            "order": 3,
+                                                            "_children": [
+                                                                {
+                                                                    "name": "Noah",
+                                                                    "gender": "m",
+                                                                    "order": 1
+                                                                },
+                                                                {
+                                                                    "name": "Hosea",
+                                                                    "gender": "m",
+                                                                    "order": 2
+                                                                },
+                                                                {
+                                                                    "name": "Psalms",
+                                                                    "gender": "f",
+                                                                    "order": 3
+                                                                },
+                                                                {
+                                                                    "name": "Enoch",
+                                                                    "gender": "m",
+                                                                    "order": 4
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Samuel",
+                                                            "gender": "m",
+                                                            "order": 4
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     "name": "Ngatungane",
                                                     "gender": "f",
                                                     "order": 10,
@@ -492,12 +490,12 @@
                                                                     "order": 1
                                                                 },
                                                                 {
-                                                                    "name": "Davida",
+                                                                    "name": "Kapu",
                                                                     "gender": "m",
                                                                     "order": 2
                                                                 },
                                                                 {
-                                                                    "name": "Kapu",
+                                                                    "name": "Davida",
                                                                     "gender": "m",
                                                                     "order": 3
                                                                 }
@@ -509,7 +507,7 @@
                                                             "order": 3,
                                                             "_children": [
                                                                 {
-                                                                    "name": "Melissa",
+                                                                    "name": "Melissa (Hani)",
                                                                     "gender": "m"
                                                                 }
                                                             ]
